@@ -31,6 +31,89 @@
             border-radius: 10px;
         }
 
+        .img-responsive {
+            margin: 0 auto;
+        }
+
+
+        
+
+    @media only screen and (max-width: 500px) {
+            html{
+            }
+
+            .copy{
+                color: #000;
+                font-family: "Ek Mukta", sans-serif;
+                font-size: 5vw;
+                font-weight: 200;
+                line-height: 1.5;
+                -webkit-font-smoothing: antialiased;
+                padding: 10px;
+            }
+            .copy_np{
+                color: #000;
+                font-family: "Ek Mukta", sans-serif;
+                font-size: 5vw;
+                font-weight: 200;
+                -webkit-font-smoothing: antialiased;
+            }
+            
+
+            .headers{
+                font-family: "Ek Mukta", sans-serif;
+                font-size: 10vw;
+                margin-top: 20px;
+            }
+
+            #panel3_1{
+                color: #ffffff;
+                background-image: url(pages/imgs/healthcare-banner.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            #panel3_1 h1{
+                margin-top: 150px;
+                font-size: 15vw;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            #panel3_1 h2{
+                font-size: 9vw;
+                margin-top: 20px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+            #panel3_1 p{
+                color: #000000 !important;
+            }
+            #panel4_1{
+              margin-top: 75px;
+            }
+            #panel5_1{
+              margin-top: 10px;
+            }
+
+            #panel6_1{
+            color: #ffffff;
+            background-image: url(pages/imgs/dna.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            }
+            #panel6_1 p{
+                color: #ffffff !important;
+                font-weight: 500 !important;
+            }
+            #panel6_1 li{
+                color: #ffffff !important;
+                font-size: 12px;
+                text-align: left;
+        }
+
+
+        }
+
+
+@media only screen and (min-width: 768px) {
 
         .copy{
             color: #000;
@@ -42,20 +125,30 @@
             padding: 60px;
         }
 
+        .copy_np{
+                color: #000;
+                font-family: "Ek Mukta", sans-serif;
+                font-size: 20px;
+                font-weight: 200;
+                -webkit-font-smoothing: antialiased;
+            }
+
         .headers{
             font-family: "Ek Mukta", sans-serif;
             font-size: 70px;
         }
 
-        
-        #panel2_1{
-            
-        }
-
         #panel3_1 h1{
             font-size: 150px;
             margin-top: 50px;
+            text-shadow: 2px 2px 4px #000000;
         }
+        #panel3_1 h2{
+            font-size: 80px;
+            margin-top: 40px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
 
         #panel3_1{
             color: #ffffff;
@@ -78,7 +171,33 @@
 
         #panel5_1{
             
+            
         }
+
+        #panel6_1{
+            color: #ffffff;
+            background-image: url(pages/imgs/dna.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 60px;           
+        }
+        #panel6_1 p{
+            margin-top: -40px;
+            color: #ffffff !important;
+            font-weight: 500 !important;
+        }
+        #panel6_1 li{
+            color: #ffffff !important;
+            font-size: 24px;
+            text-align: left;
+        }
+
+        #panel7_1 {
+          
+            
+        }
+
+}
 
 
         .btn-round {
@@ -131,6 +250,7 @@
             <div class="row " >
                 <div class="full col-xs-12 text-center"  >
                     <h1 class="">Google DLP</h1>
+                    <h2 class="">Protect Your Domain</h2>
                     <p class="copy"></p>
                    
           
@@ -148,6 +268,7 @@
                     <h1 class="headers">Google Data Loss Pervention</h1>
                     <p class="copy">Every company has data that it must keep secure — whether that data is about confidential innovations, sensitive HR issues or protected health information (PHI).
                     Let our Experts help you get the most out of your Google Data Loss Prevention (DLP)   </p>
+                    <img class="img-responsive" src="pages/imgs/padlock_PNG9393.png">
                    
           
                 </div>
@@ -164,7 +285,7 @@
                     <h1 class="headers">How Google DLP Works</h1>
                     <p class="copy">Google DLP will automatically check all outgoing emails and take action based on what the admin has specified: either quarantine the email for review, tell users to modify the information or block the email from being sent and notify the sender. These checks don’t just apply to email text, but also to content inside common attachment types ― such as documents, presentations and spreadsheets.</p>
 
-                    <img style="margin-top: -30px;" src="pages/imgs/security_1.png">
+                    <img class="img-responsive" style="margin-top: -30px;" src="pages/imgs/security_1.png">
                    
           
                 </div>
@@ -175,23 +296,30 @@
         </div> 
 
 
-        <div class="section-class-name" data-section-name="services">
-            <div class="row ">
-                <div class="full col-xs-12 text-center" id="panel6_1" >
-                    <h1 class="headers">Our Services</h1>
+        <div class="section-class-name" data-section-name="designer">
+            <div class="row " id="panel6_1">
+                <div class="full col-xs-12 text-center glass"  >
+                    <h1 class="headers">Designer DLP</h1>
+                      <p class="copy ">Google offers several predefined detectors that help you detect social security numbers, credit cards and bank numbers however to truly create a compliant system you will need a much more sophisticated algorithm specific to your data protection needs. <br>
+
+We build specialized detection scripts to find and block the transmission of your sensitive data. It’s like reading the DNA of each document and email to find those key indicators and then making good choices about what to do next. Our DLP Architects work with you to identify the type of information you want to protect and determine the correct level of response for the privacy of the data.</p>
                     <div class="row">
                         <div class= col-xs-6>
                             
                                 <ul>
                                     <li>Custom Detectors</li> 
-                                    <li>Independent Audits</li>
+                                    <li>Independent System Activity Reviews</li>
                                     <li>Achieve HIPAA/HITECH Compliance</li>
-                                    <li>Gmail and Drive Security Assurance</li>
-                                    <li>Prevention Planning  </li>
-
 
                                 </ul>
-
+                        </div>
+                        <div class= col-xs-6>                            
+                                <ul>
+                                    
+                                    <li>Gmail and Drive Security Assurance</li>
+                                    <li>Prevention Planning</li>
+                                    <li>Automated Testing</li>
+                                </ul>
                         </div>
                     </div>        
                    
@@ -207,39 +335,30 @@
 
 
     	<div class="section-class-name" data-section-name="make_contact">
-            <div class=" container ">
-                <div class="row">
-                    <div class="col-lg-2 col-lg-offset-5 col-xs-offset-3  col-xs-7 col-sm-offset-5  col-sm-7">
+             <div class="row " id="panel7_1">
+                <div class="full col-xs-12 text-center "  >
+
                       <img class="img-responsive" src="pages/imgs/new_bulb.PNG" style="max-height: 150px;" title="Inginte Synergy">
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Let's Get In Touch!</h2>
+
+                        <h2 class="headers">Let's Get In Touch!</h2>
                         <hr class="primary">
-                        <p class="lead">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                    </div>
-                 </div>
-                 <div class="row">   
-                    <div class="col-lg-4 col-lg-offset-2 text-center">
-                        <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                        <p class="lead">505-933-9161</p>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p class="lead"><a href="mailto:info@southwestsoftwaredesigns.com">info@ignitesynergy.com</a></p>
-                    </div>
-                    
+                        <p class="copy">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+
+                        <i class="fa fa-phone fa-3x"></i>
+                        <p class="copy_np">505-933-9161</p>
+ 
+                        <i class="fa fa-envelope-o fa-3x " ></i>
+                        <p class="copy_np"><a href="mailto:info@southwestsoftwaredesigns.com">info@ignitesynergy.com</a></p>
                 </div>
             </div>
-            </div>
+        </div>
 
         <button id="menu" class="btn btn-round"><span class="glyphicon glyphicon-th" ></span></button>
         <div id="open_menu" class="glass" hidden>
             <div  move="home" id="home-btn"><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-home" ></span></button> Home</div>
-             <div  move="what_we_do" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-cloud-upload" ></span></button> What we do</div>
-             <div  move="we_guide" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-screenshot" ></span></button> We Guide</div>
-             <div  move="we_carry" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-thumbs-up" ></span></button> We Carry</div>
-             <div  move="we_educate" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-education" ></span></button> We Educate</div>
-             <div  move="we_innovate" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-cog" ></span></button> We Innovate</div>
+             <div  move="dlp" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-lock" ></span></button> Google DLP</div>
+             <div  move="how_it_works" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-cog" ></span></button> How GDLP Works</div>
+             <div  move="designer" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-pencil" ></span></button> Designer DLP</div>
              <div  move="make_contact" id=""><button class=" btn btn-round-sm"><span class="glyphicon glyphicon-earphone" ></span></button> Make Contact</div>
             
         </div>
